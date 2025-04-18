@@ -1,0 +1,82 @@
+<resources>
+    <!--General-->
+    <string name="app_name">Glyphify</string>
+
+    <string name="title_home">Glyphifier</string>
+    <string name="title_ringtones">铃声</string>
+    <string name="title_notifications">通知</string>
+
+    <string name="alert_posbtn">确定</string>
+    <string name="alert_negbtn">中止</string>
+
+    <string name="title_foreground_notification">让 Glyphs 更加有用</string>
+    <string name="title_new_version">Glyphify 更新</string>
+
+    <string name="msg_new_version">有新版本，前往 Github 更新。</string>
+
+    <string name="support_me">欢迎！这是由一款由学生制作的免费使用且无广告的应用，如果您觉得我的作品有价值并且想表示支持，可以考虑捐款或给我的 Github 仓库点颗 Star，任何支持都表示感谢，谢谢阅读！</string>
+    <string name="support_paypal">给我买杯咖啡</string>
+    <string name="support_github">给仓库 Star</string>
+
+
+    <!--Home fragment-->
+    <string name="btn_file_selection">选择文件</string>
+    <string name="btn_donate">捐款</string>
+
+    <string name="alert_msg_output_name">为您的铃声命名</string>
+    <string name="alert_msg_perm_notifications">给予通知权限，以便当有新的更新时接收通知</string>
+
+    <string name="toggle_expanded_title">区域数量</string>
+    <string name="toggle_text_5zones">5 个区域</string>
+    <string name="toggle_text_33zones">33 个区域</string>
+
+    <string name="progress_text_1">正在分析您的歌曲...</string>
+    <string name="progress_text_2">正在创建独特动画...</string>
+    <string name="progress_text_3">即将完成...</string>
+
+    <string name="error_duration_long">请选择不超过5分钟的音频文件</string>
+    <string name="error_invalid_audio_file">请选择有效的音频文件</string>
+    <string name="error_no_file">文件不存在</string>
+    <string name="error_failed_load">文件加载失败</string>
+    <string name="error_failed_conv_wav">WAV 格式转换失败</string>
+    <string name="error_failed_create_comp">特效合成创建失败</string>
+    <string name="error_failed_exporting_comp">铃声导出失败</string>
+    <string name="error_no_output_name">未提供铃声名称</string>
+
+
+    <!--Ringtones fragment-->
+    <string name="btn_apply_ringtone">应用</string>
+    <string name="btn_share">分享</string>
+    <string name="btn_delete">删除</string>
+
+    <string name="toast_ringtone_applied">默认铃声已应用</string>
+    <string name="alert_msg_perm_settings">这款应用需要修改系统设置来应用铃声，是否允许？</string>
+
+
+    <!--Notifications fragment-->
+    <string name="btn_add_app">应用</string>
+    <string name="btn_sleep_mode_start">开始时间</string>
+    <string name="btn_sleep_mode_end">结束时间</string>
+
+    <string name="alert_msg_perm_contacts">请允许读取联系人权限，以便识别来自特定联系人的通知</string>
+    <string name="alert_msg_perm_notifications_listener">此面板允许您将任何 Glyph 区域设为"重要通知"：点击 Glyph 区域并选择联系人，当收到该联系人的通知时，Glyph 灯效将保持常亮直到您查看或回复通知。\n\n需要授予通知读取和联系人读取权限。\n\n首次授权时会弹出"受限设置"提示，请前往：设置 → 应用 → Glyphify → 右上角 ⋮ 菜单 → 返回本应用完成授权（ ⋮ 菜单需在弹出提示后才会显示）。</string>
+    <string name="alert_msg_sleep_mode">设置定时关闭扩展重要通知功能</string>
+
+    <string name="title_sleep_mode">睡眠模式</string>
+
+    <string name="toggle_dimming_title">灯效强度</string>
+    <string name="toggle_text_dimming_low">低</string>
+    <string name="toggle_text_dimming_mid">中</string>
+    <string name="toggle_text_dimming_high">高</string>
+    <string name="toggle_text_dimming_var">可变</string>
+
+    <string name="snackbar_long_tap_remove">长按可删除元素</string>
+
+    <string-array name="ee_animations_names">
+        <item>静态</item>
+        <item>脉冲</item>
+        <item>!乒乓</item>
+        <item>!波浪</item>
+    </string-array>
+
+</resources>
